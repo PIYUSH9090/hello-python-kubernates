@@ -1,5 +1,7 @@
 we will see how to run the 'hello from python' in flask then we will deploy it in kubernates with the dhelp of docker.
 
+If you want to check this blog you check this link: https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/#create-an-image
+
 PREREQUISITES
 
     A Kubernetes service - I'm using Docker CLI and minikube-kubectl. but you can use one of the others. See Getting Started for a full listing.
