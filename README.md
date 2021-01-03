@@ -32,7 +32,7 @@ This will make the image file so if want to check that out you use this command:
 ```
 docker image ls
 ```
-Yuo will get image created before a moment.
+You will get image created before a moment.
 
 Running in Docker 
 
@@ -42,6 +42,19 @@ docker run -p 5001:5000 hello-python
 ```
 
 Now navigate to http://localhost:5001, and you should see the “Hello form Python!” message.
+
+After then we have to push this docker image to docker hub with this command, we can push docker with 2 command 
+
+```
+docker image tag hello-python piyush9090/hello-python:latest
+```
+it means :- docker image tag <docker image name> <dockerhub username/docker image name:latest>
+    
+Secound command is 
+```
+docker push piyush9090/hello-python:latest
+```
+Now you will get this image intop your docker hub account. You can pull from there also whenever you want.
 
 
 Running in Kubernetes
