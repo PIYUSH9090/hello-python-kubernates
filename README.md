@@ -95,7 +95,7 @@ Now our deployments are complete, you will get pod name so now if you want to ru
 minikube service hello-python service
 ```
 
-This is the pod name => hello-python service
+This is the pod name => hello-python-service
 
 So you will deen directly running this app in kubernates localhost at browser.
 
