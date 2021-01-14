@@ -18,7 +18,7 @@ gcloud init
 
 We have to create first project in google cloud
 gcloud projects create [PROJECT_ID] --name=[PROJECT_NAME]
-``````
+```
 gcloud projects create k8s-621999 --name=kubernates
 ```
 
