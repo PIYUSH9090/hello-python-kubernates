@@ -92,7 +92,7 @@ kubectl get pods
 Now our deployments are complete, you will get pod name so now if you want to run this in kubernates then you have to give this command:
 
 ```
-minikube service hello-python service
+minikube service hello-python-service
 ```
 
 This is the pod name => hello-python-service
